@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smarketech - Sistema de Gerenciamento de Produtos</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+        integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="imagens/logo.png" alt="Logo">
+        </div>
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="index.html#home" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="index.html#services" class="nav__link">Meus serviços</a></li>
+                <li class="nav__item"><a href="index.html#about" class="nav__link">Sobre mim</a></li>
+                <li class="nav__item"><a href="index.html#work" class="nav__link">Meu trabalho</a></li>
+                <li class="nav__item"><a href="#tools" class="nav__link">Ferramentas que utilizo</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <section class="intro" id="home">
+        <h1 class="section__title section__title--intro">
+            <strong>Smarketech</strong>
+        </h1>
+        <p class="section__subtitle section__subtitle--intro">Gestor de mercado</p>
+        <img src="imagens/carrinho.jpg" alt="Logo Smarketech" class="intro__img">
+    </section>
+
+    <div class="portfolio-item-individual">
+        <p>O Smarketech é um sistema de gestão desenvolvido com o objetivo de centralizar e organizar informações de
+            forma estruturada, garantindo consistência dos dados e facilitando a tomada de decisão. O projeto foi
+            pensado desde o início com foco em back-end, banco de dados e integração funcional, priorizando uma
+            arquitetura clara e escalável.
+        </p>
+    </div>
+
+    <div class="portfolio-item-individual">
+
+        <div class="portfolio__item-2" onclick="openModal('imagens/print_login.jpg')">
+            <img src="imagens/print_login.jpg" alt="Tela de login" class="portfolio__img-2">
+        </div>
+        <p class="pic-caption">Tela de login</p>
+
+        <div id="modal" class="modal" onclick="closeModal()">
+            <img id="modal-img">
+        </div>
+    </div>
+
+    <div class="portfolio-item-individual">
+
+        <div class="portfolio__item-2" onclick="openModal('imagens/print_ems.jpg')">
+            <img src="imagens/print_ems.jpg" alt="Esqueci minha senha" class="portfolio__img-2">
+        </div>
+        <p class="pic-caption">Tela de recuperação de senha</p>
+
+        <div id="modal" class="modal" onclick="closeModal()">
+            <img id="modal-img">
+        </div>
+
+        <p>O fluxo de autenticação seguro permite o acesso seguro às funcionalidades do programa de gestão. A interface
+            de login se comunica com o back-end para validação das credenciais, enquanto o fluxo de
+            recuperação de senha permite a redefinição de acesso de forma controlada.</p>
+    </div>
+
+    <div class="portfolio-item-individual">
+        <div class="portfolio__item-2" onclick="openModal('imagens/print_produtos.jpg')">
+            <img src="imagens/print_produtos.jpg" alt="Tela de gestão de produtos" class="portfolio__img-2">
+        </div>
+        <p class="pic-caption">Tela de gestão de produtos</p>
+
+        <p>A aplicação permite o gerenciamento completo do catálogo de produtos, incluindo cadastro, visualização,
+            edição e exclusão. O front-end consome endpoints da API para manter os dados sincronizados, refletindo
+            alterações de forma dinâmica na interface.</p>
+        <p>A organização em cards facilita a visualização das informações essenciais, como preço, estoque e validade,
+            tornando o uso do sistema mais intuitivo.</p>
+    </div>
+
+    <div class="portfolio-item-individual">
+        <div class="portfolio__item-2" onclick="openModal('imagens/print_relatorios.jpg')">
+            <img src="imagens/print_relatorios.jpg" alt="Tela de relatórios" class="portfolio__img-2">
+        </div>
+        <p class="pic-caption">Tela de relatórios</p>
+
+        <p>O dashboard de relatórios apresenta informações consolidadas do sistema, como total de produtos, valor em
+            estoque, alertas e tendências. Os dados exibidos são processados no back-end e
+            apresentados no front-end por meio de gráficos e indicadores visuais.</p>
+        <p>Essa camada analítica auxilia na interpretação dos dados e na tomada de decisão, transformando informações
+            brutas em insights visuais.</p>
+    </div>
+
+    <div class="portfolio-item-individual">
+        <div class="portfolio__item-2" onclick="openModal('imagens/print_pedidos.jpg')">
+            <img src="imagens/print_pedidos.jpg" alt="Tela de histórico de pedidos" class="portfolio__img-2">
+        </div>
+        <p class="pic-caption">Tela de histórico de pedidos</p>
+
+        <p>A aplicação possui uma área dedicada ao acompanhamento de pedidos, permitindo visualizar histórico, status,
+            valores e itens vendidos. O front-end realiza filtros e consultas que são processadas pelo back-end,
+            retornando dados organizados e atualizados.</p>
+        <p>Essa funcionalidade centraliza o fluxo operacional do sistema, conectando produtos, clientes e valores de
+            forma estruturada.</p>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <a href="mailto:ettorecesar.f@gmail.com" class="footer__link">ettorecesar.f@gmail.com</a>
+        <ul class="social-list">
+
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://www.linkedin.com/in/ettore-faria-242885341">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </li>
+
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://github.com/Ettore06">
+                    <i class="fab fa-github"></i>
+                </a>
+            </li>
+        </ul>
+    </footer>
+
+
+    <script src="index.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smarketech - Banco de Dados</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+        integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="imagens/logo.png" alt="Logo">
+        </div>
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="index.html#home" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="index.html#services" class="nav__link">Meus serviços</a></li>
+                <li class="nav__item"><a href="index.html#about" class="nav__link">Sobre mim</a></li>
+                <li class="nav__item"><a href="index.html#work" class="nav__link">Meu trabalho</a></li>
+                <li class="nav__item"><a href="#tools" class="nav__link">Ferramentas que utilizo</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <section class="intro" id="home">
+        <h1 class="section__title section__title--intro">
+            <strong>Smarketech</strong>
+        </h1>
+        <p class="section__subtitle section__subtitle--intro">Banco de Dados</p>
+        <img src="imagens/img_banco.jpg" alt="Tela de login" class="intro__img">
+    </section>
+
+    <div class="portfolio-item-individual">
+        <p>O banco de dados do Smarketech foi projetado com foco em organização, integridade e escalabilidade, servindo
+            como base para o funcionamento do sistema de gestão. A modelagem foi desenvolvida a partir da análise das
+            entidades do sistema e de seus relacionamentos, garantindo consistência e evitando redundâncias de dados.
+        </p>
+    </div>
+
+    <div class="portfolio-item-individual">
+
+        <div class="portfolio__item-2" onclick="openModal('imagens/DER.jpg')">
+            <img src="imagens/DER.jpg" alt="Tela de gestão de produtos" class="portfolio__img-2">
+        </div>
+        <p class="pic-caption">Diagrama entidade-relacionamento</p>
+
+        <div id="modal" class="modal" onclick="closeModal()">
+            <img id="modal-img">
+        </div>
+    </div>
+
+    <div class="portfolio-item-individual">
+
+        <p>A estrutura segue os princípios do modelo relacional, com definição clara de chaves primárias e estrangeiras,
+            permitindo uma comunicação eficiente com o back-end por meio da API. Essa abordagem facilita tanto a
+            manutenção do banco quanto a implementação de novas funcionalidades.</p>
+        <p>Durante o desenvolvimento, foram aplicadas boas práticas de modelagem, como normalização, padronização de
+            nomes e separação adequada das responsabilidades de cada tabela. O banco foi pensado para suportar operações
+            frequentes de leitura e escrita, mantendo a integridade das informações.</p>
+        <p>Além da estrutura funcional, o banco de dados foi integrado a processos de consulta e manipulação de dados
+            que atendem às necessidades do sistema, reforçando seu papel central na operação da aplicação.</p>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <a href="mailto:ettorecesar.f@gmail.com" class="footer__link">ettorecesar.f@gmail.com</a>
+        <ul class="social-list">
+
+            <li class="social-list__item">
+                <a class="social-list__link" href="www.linkedin.com/in/ettore-faria-242885341">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </li>
+
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://github.com/Ettore06">
+                    <i class="fab fa-github"></i>
+                </a>
+            </li>
+        </ul>
+    </footer>
+
+
+    <script src="index.js"></script>
+
+</body>
+
+</html>
