@@ -26,13 +26,13 @@ A estrutura do projeto está organizada da seguinte forma:
 
 ```text
 /
-├── index.html # Página principal do portfólio  
-├── style.css # Estilos globais  
-├── index.js # Scripts de interação  
-├── imagens/ # Imagens e assets visuais  
-├── web.html # Página do projeto web Smarketech (front-end / sistema)  
-├── banco.html # Página sobre meu trabalho em banco de dados  
-├── doc.html # Página sobre documentação técnica desenvolvida por mim  
+├── index.html # Página principal do portfólio
+├── style.css # Estilos globais
+├── index.js # Scripts de interação
+├── imagens/ # Imagens e assets visuais
+├── web.html # Página do projeto web Smarketech (front-end / sistema)
+├── banco.html # Página sobre meu trabalho em banco de dados
+├── doc.html # Página sobre documentação técnica desenvolvida por mim
 ```
 
 ---
@@ -43,27 +43,23 @@ O portfólio não está publicado online no momento, mas pode ser visualizado lo
 
 1. Clone o repositório:
 
-   ```bash  
-   git clone https://github.com/Ettore06/Portfolio.git  
-   ```
-
+   ```bash
+   git clone https://github.com/Ettore06/Portfolio.git
+   
 2. Acesse a pasta do projeto:
 
-    ```bash  
-    cd Portfolio  
-    ```
+    ```bash
+    cd Portfolio
 
-3. Abra o arquivo index.html no navegador  
-(duplo clique ou botão direito → “Abrir com”)
+3. Abra o arquivo index.html no navegador
+(duplo clique ou botão direito → "Abrir com")
 
 Nenhuma configuração adicional é necessária.
 
 ---
 
-## 📬 Contato
+📬 Contato
 
-* Email: ettorecesar.f@gmail.com
-
-* LinkedIn: https://www.linkedin.com/in/ettore-faria-242885341
-
+* Email: ettorecesar.f@gmail.com  
+* LinkedIn: https://www.linkedin.com/in/ettore-faria-242885341  
 * GitHub: https://github.com/Ettore06
