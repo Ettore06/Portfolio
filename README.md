@@ -10,10 +10,10 @@ O portfólio foi pensado para ser simples, organizado e direto, com foco na clar
 
 Neste portfólio, você encontrará:
 
-* Uma visão geral sobre quem sou e o que faço
-* Descrição dos meus serviços e áreas de atuação
-* Apresentação de projetos desenvolvidos
-* Tecnologias e ferramentas que utilizo
+* Uma visão geral sobre quem sou e o que faço  
+* Descrição dos meus serviços e áreas de atuação  
+* Apresentação de projetos desenvolvidos  
+* Tecnologias e ferramentas que utilizo  
 * Informações de contato
 
 Os projetos apresentados foram desenvolvidos em ambiente local, com o código-fonte disponível para análise.
@@ -26,13 +26,13 @@ A estrutura do projeto está organizada da seguinte forma:
 
 ```text
 /
-├── index.html # Página principal do portfólio
-├── style.css # Estilos globais
-├── index.js # Scripts de interação
-├── imagens/ # Imagens e assets visuais
-├── web.html # Página do projeto web Smarketech (front-end / sistema)
-├── banco.html # Página sobre meu trabalho em banco de dados
-├── doc.html # Página sobre documentação técnica desenvolvida por mim
+├── index.html # Página principal do portfólio  
+├── style.css # Estilos globais  
+├── index.js # Scripts de interação  
+├── imagens/ # Imagens e assets visuais  
+├── web.html # Página do projeto web Smarketech (front-end / sistema)  
+├── banco.html # Página sobre meu trabalho em banco de dados  
+├── doc.html # Página sobre documentação técnica desenvolvida por mim  
 ```
 
 ---
@@ -42,16 +42,18 @@ A estrutura do projeto está organizada da seguinte forma:
 O portfólio não está publicado online no momento, mas pode ser visualizado localmente seguindo os passos abaixo:
 
 1. Clone o repositório:
-   ```bash
-   git clone https://github.com/Ettore06/Portfolio.git
+
+   ```bash  
+   git clone https://github.com/Ettore06/Portfolio.git  
    ```
 
 2. Acesse a pasta do projeto:
-    ```bash
-    cd Portfolio
+
+    ```bash  
+    cd Portfolio  
     ```
 
-3. Abra o arquivo index.html no navegador
+3. Abra o arquivo index.html no navegador  
 (duplo clique ou botão direito → “Abrir com”)
 
 Nenhuma configuração adicional é necessária.
